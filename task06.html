@@ -1,0 +1,490 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style type="text/css">
+body{
+	width: 980px;
+	height: 1386px;
+	margin: 0 auto;
+	/*cursor: default;*/
+}
+.header{
+	margin: 0 auto;
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c; 
+	position: relative;
+}
+.header span{
+	display: inline-block;
+}
+.header .title{
+	margin: 0 auto;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	background-color: #d45d5c;
+	height: 61px;
+	width: 110px;
+	position: relative;
+}
+.header .title .title-text{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 110px;
+}
+.header .date{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #d45d5c;
+	font-size: 12px;
+	/*vertical-align: bottom;*/
+	/*line-height: 105px;*/
+}
+.banner{
+	margin: 35px auto;
+	height: 301px;
+	width: 892px;
+	overflow: hidden;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.banner .bg{
+	background: url(img/task1.6_1.jpg);
+	height: 301px;
+	width: 641px;
+}
+.banner .fl span{
+	display: inline-block;
+	width: 191px;
+	height: 301px;
+}
+.banner .fl .green{
+	background: green;
+	opacity: 0.3;
+}
+.banner .fl .red{
+	background: red;
+	opacity: 0.3;
+}
+.banner .intro{
+	border-top: 2px solid #cc8091;
+	height: 301px;
+	width: 203px;
+}
+.banner .intro .all{
+	margin-top: 5px;
+	display: inline-block;
+	border-bottom: 3px solid #000;
+	vertical-align: bottom;
+	font-size: 24px;
+	color: #000;
+	line-height: 30px;
+}
+.banner .intro .h1{
+	display: inline-block;
+	font-size: 30px;
+	/*text-decoration: underline;*/
+	/*border-bottom: 3px solid #000;*/
+	/*vertical-align: bottom;*/
+}
+.banner .intro .h2_info{
+	font-size: 12px;
+	color: #676767;
+	line-height: 10px;
+	/*margin-top: 0;*/
+}
+.banner .fr span.big{
+	font-size: 116px;
+	color: #75b86b;
+	font-style: italic;
+	/*text-decoration: underline;*/
+}
+.banner .fr .ban_bot span{
+	display: inline-block;
+	margin-top: -10px;
+	margin-right: 18px;
+	width: 203px;
+}
+.banner .fr .ban_bot .fl{
+	font-size: 55px;
+	color: #cc8091;
+}
+.banner .fr .ban_bot .fr{
+	position: relative;
+}
+.banner .fr .ban_bot .css{
+	font-size: 21px;
+	color: #cc8091;
+	/*margin-top: -31px;*/
+	position: absolute;
+	left: 110px;
+	bottom: -10px;
+}
+.banner .fr .ban_bot .css_small{
+	font-size: 12px;
+	color: #231815;
+	position: absolute;
+	left: 110px; 
+	bottom: -12px;
+}
+.bantext{
+	margin: 35px 40px;
+	height: 218px;
+	width: 650px;
+	overflow: hidden;
+}
+.bantext span{
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.bantext .when{
+	width: 230px;
+	float: left;
+	margin-right: 20px;
+}
+.bantext .what{
+	width: 230px;
+	float: left;
+	margin-right: 20px; 
+}
+.bantext .how{
+	width: 150px;
+	float: left;
+}
+.bantext .what span{
+	color: #418c59;
+}
+.bantext .when span{
+	color: #d2994f;
+}
+.bantext .how span{
+	color: #cc7680;
+}
+.bantext p{
+	font-size: 12px;
+	line-height: 18px;
+}
+.bantext ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+}
+.bantext em{
+	color: #cd4a48;
+	opacity: 0.7;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 16px;
+}
+.article{
+	margin: 70px auto;
+	height: 605px;
+	width: 892px;
+	overflow: hidden;
+	position: relative;
+}
+.article .fl{
+	float: left;
+}
+.article .fr{
+	float: right;
+}
+.article .article_con{
+	width: 415px;
+}
+.article .article_con .title{
+	border-bottom: 2px solid #11456b;
+}
+.article .article_con .title span{
+	display: inline-block;
+}
+.article .article_con .title span.h{
+	font-size: 42px;
+	color: #11456b;
+	font-weight: bold;
+	/*line-height: 16px;*/
+}
+.article .article_con .title span.h em{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+}
+.article .article_con .title span.tit{
+	font-size: 33px;
+	color: #11456b;
+	font-weight: bold;
+}
+.article .article_con .con{
+	padding: 15px 0 0 0;
+}
+.article .article_con .con p{
+	font-size: 12px;
+	color: #767777;
+	line-height: 16px;
+	text-indent: 2em;
+	margin: 0;
+}
+.article .article_con .con p:first-child:first-letter{
+	font-size: 70px;
+	color: #f5e327;
+	font-style: normal;
+	float: left;
+	padding: 0;
+	padding: 25px 10px 25px 0px;
+}
+.article .article_con .con p:first-child{
+	text-indent: 0;
+}
+.article .article_con .con p img{
+	float: right;
+	padding: 10px 0 10px 10px;
+	height: 285px;
+}
+.article .pic{
+	width: 458px;
+}
+.article .pic .picture{
+	height: 275px;
+	width: 458px;
+	background: url(img/task1.6_2.jpg);
+	position: relative;
+}
+.article .pic .picture .pictext{
+	height: 61px;
+	width: 458px;
+	opacity: 0.3;
+	background: #000;
+	position: absolute;
+	bottom: 0;
+}
+.article .pic .picture .pictext span{
+	display: inline-block;
+	border-left: 3px solid #72b16a;
+	height: 44px;
+	position: absolute;
+	left: 40px;
+	top: 9px;
+	color: #fff;
+	font-size: 26px;
+	padding-left: 10px;
+	line-height: 44px;
+}
+.article .pic .picture .pictext span em{
+	font-size: 12px;
+	color: #72b16a;
+	padding-left: 10px; 
+}
+.article .pic .list{
+	height: 318px;
+	width: 459px;
+	margin-top: 30px;
+	background: #eeedd6;
+	position: relative;
+}
+.article .pic .list ul{
+	list-style-type: none;
+	padding-top: 20px;
+}
+.article .pic .list ul li{
+	font-size: 16px;
+	color: #5a5b5b;
+	margin-bottom: 0;
+	line-height: 35px;
+}
+.article .pic .list ul li em{
+	font-size: 12px;
+	color: #5a5b5b;
+	line-height: 20px;
+}
+.article .pic .list .list_bottom{
+	position: relative;
+	height: 160px;
+	width: 459px;
+	bottom: 0;
+	/*overflow: hidden;*/
+}
+.article .pic .list .list_bottom .fl{
+	float: left;
+}
+.article .pic .list .list_bottom .fr{
+	float: right;
+}
+.article .pic .list .list_bottom .num{
+	background: #d45d5c;
+	width: 260px;
+	height: 160px;
+	color: #fff;
+}
+.article .pic .list .list_bottom span{
+	display: inline-block;
+	height: 86px;
+	margin-top: 35px;
+}
+.article .pic .list .list_bottom span.num_left{
+	font-size: 110px;
+	margin-left: 10px;
+	border-right: 2px solid #fff;
+	text-align: center;
+	/*vertical-align: bottom;*/
+	/*height: 86px;*/
+	line-height: 86px;
+}
+.article .pic .list .list_bottom span.num_right{
+	width: 160px;
+}
+.article .pic .list .list_bottom span.num_right p:first-child{
+	font-size: 17px;
+	margin: 0;
+	font-style: italic;
+}
+.article .pic .list .list_bottom span.num_right p:last-child{
+	font-size: 12px;
+}
+.article .pic .list .list_bottom .num_text{
+	width: 160px;
+	position: relative;
+	margin-left: 20px;
+}
+.article .pic .list .list_bottom .num_text p{
+	font-size: 14px;
+	font-style: italic;
+	color: #5a5b5b;
+	line-height: 16px;
+	position: relative;
+	/*text-indent: 2em;*/
+}
+.article .pic .list .list_bottom .num_text p span{
+	display: inline-block;
+	margin: 0;
+	height: 16px;
+	position: absolute;
+}
+/*.article .pic .list .list_bottom .num_text {
+	position: absolute;
+	color: #d45d5c;
+	font-size: 72px;
+}*/
+.article .pic .list .list_bottom .num_text span.first{
+	font-size: 72px;
+	left: -50px;
+    top: 5px;
+}
+.article .pic .list .list_bottom .num_text span.last{
+	bottom: -330px;
+    right: -15px;
+}
+.bottom{
+	width: 892px;
+	height: 60px;
+	margin: 0 auto;
+	border-top: 1px solid #938e8c;
+}
+.bottom span{
+	display: inline-block;
+	font-size: 12px;
+	color: #d45d5c;
+	float: right;
+}
+</style>
+</head>
+
+<body>
+<div class="header">
+	<span class="title"><span class="title-text">ife.baidu.com</span></span>
+	<span class="date">2016.03</span>
+</div>
+<div class="banner">
+	<div class="fl bg">
+		<span class="fl green"></span>
+		<span class="fr red"></span>
+	</div>
+	<div class="fr intro">
+		<span class="all"><span class="h1">A</span>BOUT</span><br>
+		<span class="all"><span class="h1">T</span>ECHNOLOGE</span>
+		<p class="h2_info">About technologe about technologe about technologe</p>
+		<span class="big">700</span>
+		<div class="ban_bot">
+			<span class="fl">3.2</span>
+			<span class="fr">
+				<p class="css">css</p>
+				<p class="css_small">csscsscsscsscssc</p>
+			</span>
+		</div>
+	</div>
+</div>
+<div class="bantext">
+	<div class="what">
+		<span>What</span>
+		<p>端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端</p>
+	</div>
+	<div class="when">
+			<span>When</span>
+			<p>端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端端前端前端</p>
+	</div>
+	<div class="how">
+			<span>How</span>
+			<p>端前端前端端前端前端前端前端前端前端前端端前端前端前端前端前端端前端</p>
+			<ul>
+				<li>What-------<em>40%</em></li>
+				<li>What-------<em>30%</em></li>
+				<li>What-------<em>30%</em></li>
+			</ul>
+	</div>
+</div>
+<div class="article">
+	<div class="article_con fl">
+		<div class="title">
+			<span class="h"><em>The</em> TECHNOLOGE</span><br>
+			<span class="h"> OF FRONT</span><br>
+			<span class="tit">前端技术领域</span>
+		</div>
+		<div class="con">
+			<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端前
+			<img src="img/task1.6_3.jpg">端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前。</p>
+			<p>端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端前端前端前端前端前前端前端前端前端前前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端端前端</p>
+			<p>前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端前端前端前端前端前端前端端前端前端前端前端前端</p>
+		</div>
+	</div>
+	<div class="pic fr">
+		<div class="picture">
+			<div class="pictext">
+				<span>前端技术<em>前端技术前端技术</em></span>
+			</div>
+		</div>
+		<div class="list">
+			<ul>
+				<li>▲前端前端前端前端前端......................<em>前端</em></li>
+				<li>▲前端前端前端前端前端......................<em>前端</em></li>
+				<li>▲前端前端前端前端前端......................<em>前端</em></li>
+			</ul>
+			<div class="list_bottom">
+				<div class="fl num">
+					<span class="fl num_left">0</span>
+					<span class="fr num_right">
+						<p>ONE TWO<br> THREE FORE FIVE</p>
+						<p>hello world hello world hello world</p>
+					</span>
+				</div>
+				<div class="fr num_text">
+					<p><span class="first">“</span>world hello world hello world hello world hello world hello world hello world hello world hello world hello world hello world<span class="last">”</span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="bottom">
+	<span>ife.baidu.com</span>
+</div>
+</body>
+</html>
